@@ -8,3 +8,7 @@ const sequelize = new Sequelize('socialnetwork', 'root', 'root' , {
 
 module.exports = sequelize;
 global.sequelize = sequelize;
+
+// sequelize migration:create --name create_tweets_table
+
+// sequelize db:migrate
