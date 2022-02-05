@@ -21,6 +21,9 @@ const rootPath = path.resolve('./dist');
 
 app.use(express.static(rootPath));
 
+// DB Connection
+require('./src/database/connection');
+
 router.use((err, req, res, next) => {
     if(err) {
         return res.send(err.message);
