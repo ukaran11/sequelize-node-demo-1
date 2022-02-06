@@ -12,3 +12,5 @@ global.sequelize = sequelize;
 // sequelize migration:create --name create_tweets_table
 
 // sequelize db:migrate
+
+// sequelize migration:create --name create_users_table
