@@ -14,3 +14,6 @@ global.sequelize = sequelize;
 // sequelize db:migrate
 
 // sequelize migration:create --name create_users_table
+
+// sequelize db:migrate:undo
+

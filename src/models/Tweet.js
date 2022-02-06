@@ -7,5 +7,6 @@ module.exports = sequelize.define('Tweet', {
         autoIncrement: true,
         primaryKey: true
     },
+    userId: Sequelize.INTEGER(11),
     content: Sequelize.STRING(300)
 })
